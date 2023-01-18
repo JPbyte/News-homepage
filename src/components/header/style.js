@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const DivHeader = styled.div`
     display: flex;
     justify-content: space-between;
-    padding: 2rem 2rem;
+    padding: 2rem .9rem;
     align-items: center;
     
     //style for Logo//
@@ -28,7 +28,7 @@ export const Navbar = styled.nav`
     display: ${({open}) => (open ? "block" : "none" )};;
     width: 60%;
     height: 100%;
-    background: var(--Off-white);
+    background: hsl(0, 0%, 94%);
     right: 0rem;
     top: 0rem;
         .close{
@@ -41,6 +41,7 @@ export const Navbar = styled.nav`
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            align-items: center;
             padding: 2rem 3rem;
                 a{
                     text-decoration: none;
