@@ -28,8 +28,8 @@ Desktop Design
 
 ### Links
 
-- Solution URL: [News homepage solution]()
-- Live Site URL: [Add live site URL here]()
+- Solution URL: [News homepage solution](https://news-homepage-flame-six.vercel.app)
+- Live Site URL: [Add live site URL here](https://news-homepage-flame-six.vercel.app)
 
 ### Built with
 
@@ -47,3 +47,4 @@ Desktop Design
 - Linkedin - [João Pedro Fernandes](https://www.linkedin.com/in/joão-pedro-fernandes-738720213/?originalSubdomain=br)
 - Instagram - [@joaofteixeiraa](https://www.instagram.com/joaofteixeiraa/)
 - Twitter - [@joaofteixeiraa](https://twitter.com/Joaofteixeiraa)
+- FrontEndMentor -[@JPbyte](https://www.frontendmentor.io/profile/JPbyte)
