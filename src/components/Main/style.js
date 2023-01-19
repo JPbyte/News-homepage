@@ -3,10 +3,14 @@ import styled from "styled-components";
 
 export const Central = styled.div`
     height: 100%;
-    height: 45rem;
+    height: 70rem;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media screen and (min-width: 600px){
+        height: 32rem;
+    }
 `;
 
 export const ContainerGrid = styled.div`
@@ -62,6 +66,11 @@ export const ContainerGrid = styled.div`
             padding: 1rem;
                 > h2{
                     color: var(--Soft-orange);
+                    font-family: var(--Inter);
+                    transition: .4s;
+                        :hover{
+                            color: yellow;
+                        }
                 }
                 .new-text{
                     display: flex;
@@ -69,10 +78,11 @@ export const ContainerGrid = styled.div`
                     gap: 0.7rem;
                         > h3{
                             font-size: 1.3rem;
+                            font-family: var(--Inter);
                             color: var(--Off-white);
                         }
                         > p{
-                            font-size: 0.95rem;
+                            font-size: 0.97rem;
                             color: var(--Grayish-blue);
                         }
                 }
@@ -88,6 +98,31 @@ export const ContainerGrid = styled.div`
         grid-template-areas: 
         "img img new"
         "title article new";
+
+        .article{
+            height: 100%;
+                >p{
+                    font-size: 1.15rem;
+                    line-height: 1.5rem;    
+                }
+                >button{
+                    height: 2.4rem;
+                }
+        }
+        .new{
+            height: 100%;
+                >h2{
+                    font-size: 2rem;
+                }
+                .new-text{
+                    h3{
+                        font-size: 1.3rem;
+                    }
+                    p{
+                        font-size: 1.14rem;
+                    }
+                }
+        }
     }
 `;
 
@@ -101,8 +136,17 @@ export const DivImg = styled.div`
     
     @media screen and (min-width: 600px) {
         max-width: 100%;
+        height: 18rem;
+        overflow: hidden;
             >img{
-                height: 25rem;
+                display: block;
+                height: 100%;
+                opacity: .9;
+                transition: transform 0.6s ease-in-out;
+                    &:hover{
+                        opacity: 1;
+                        transform: scale(1.2);
+                    }
             }
     } 
 `;
@@ -112,9 +156,15 @@ export const Title = styled.h1`
     font-family: var(--Inter);
     font-weight: 900;
     font-size: 2.3rem;
+    transition: .6s;
+        &:hover{
+            color: var(--Soft-orange);
+        }
 
     @media screen and (min-width: 600px) {
         width: 100%;
         max-width: 17rem;
+        height: 11rem;
+        font-size: 2.9rem;
     }
 `;

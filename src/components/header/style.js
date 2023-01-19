@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 
 export const DivHeader = styled.div`
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 2rem .9rem;
@@ -14,10 +15,11 @@ export const DivHeader = styled.div`
     }
     
     @media screen and (min-width: 800px){
-
-        .Menu{
-            display: none;
-        }
+        width: 100%;
+        justify-content: center;
+            .Menu{
+                display: none;
+            }
     }   
 `;
 
@@ -55,6 +57,8 @@ export const Navbar = styled.nav`
         }
 
     @media screen and (min-width: 800px){
+        width: 100%;
+        max-width: 53rem;
         position: relative;
         display: block;
         

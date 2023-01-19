@@ -4,15 +4,11 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
 
 ## Table of contents
 
-- [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   
-## Overview
-
 ### The challenge
 
 Users should be able to:
@@ -35,15 +31,19 @@ Desktop Design
 - Solution URL: [News homepage solution]()
 - Live Site URL: [Add live site URL here]()
 
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- CSS
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- React
+- Styled Components - For style
+
+
+### My social links
+
+- Linkedin - [João Pedro Fernandes](https://www.linkedin.com/in/joão-pedro-fernandes-738720213/?originalSubdomain=br)
+- Instagram - [@joaofteixeiraa](https://www.instagram.com/joaofteixeiraa/)
+- Twitter - [@joaofteixeiraa](https://twitter.com/Joaofteixeiraa)

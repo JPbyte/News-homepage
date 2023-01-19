@@ -14,6 +14,15 @@ const GlobalStyle = createGlobalStyle`
         background-color: var(--Off-white);
     }
 
+    #root{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
     :root {
         --Soft-orange: hsl(35, 77%, 62%);
         --Soft-red: hsl(5, 85%, 63%);
